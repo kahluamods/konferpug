@@ -1,4 +1,4 @@
-﻿## Interface: 60100
+﻿## Interface: 70000
 ## Title: Konfer (PUG Edition) |cffff2222-K-|r
 ## Notes: Open roll helper for distributing loot in PUGs.
 ## Author: Cruciformer
@@ -11,7 +11,7 @@
 ## X-Curse-Packaged-Version: r@revision@
 ## X-Curse-Project-Name: KKonferPUG
 ## X-Curse-Project-ID: kpug
-## X-SVN: http://kahluamod.com/svn/konferpug
+## X-git: git@github.com:kahluamods/konferpug
 ## SavedVariables: KKonferPUGOptions, KKonferPUGDB
 ## SavedVariablesPerCharacter: KKonferPUGCharDB
 #@debug-start@
