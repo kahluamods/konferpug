@@ -32,7 +32,7 @@ if (not K) then
   error ("KahLua KonferPUG: could not find KahLua Kore.", 2)
 end
 
-if (tonumber(KM) < 700) then
+if (tonumber(KM) < 730) then
   error ("KahLua KonferPUG: outdated KahLua Kore. Please update all KahLua addons.")
 end
 

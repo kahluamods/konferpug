@@ -1,4 +1,4 @@
-﻿## Interface: 70000
+﻿## Interface: 70300
 ## Title: Konfer (PUG Edition) |cffff2222-K-|r
 ## Notes: Open roll helper for distributing loot in PUGs.
 ## Author: Cruciformer
