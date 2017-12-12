@@ -6,7 +6,7 @@
      E-mail: cruciformer@gmail.com
    Please refer to the file LICENSE.txt for the Apache License, Version 2.0.
 
-   Copyright 2008-2010 James Kean Johnston. All rights reserved.
+   Copyright 2008-2017 James Kean Johnston. All rights reserved.
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -32,7 +32,7 @@ if (not K) then
   error ("KahLua KonferPUG: could not find KahLua Kore.", 2)
 end
 
-if (tonumber(KM) < 730) then
+if (tonumber(KM) < 731) then
   error ("KahLua KonferPUG: outdated KahLua Kore. Please update all KahLua addons.")
 end
 
@@ -1097,11 +1097,6 @@ local function reply_filter (self, evt, msg, snd, ...)
 end
 
 local function raid_roster_update (evt,...)
-  if (evt == "PARTY_MEMBERS_CHANGED" and kpg.inraid == 2) then
-    -- We catch party changes in RAID_ROSTER_UPDATE. No need to do things
-    -- twice.
-    return
-  end
   kpg:RefreshRaid ()
 end
 
